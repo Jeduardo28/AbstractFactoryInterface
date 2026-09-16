@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1540" height="1050" viewBox="0 0 1540 1050">
+<rect width="1540" height="1050" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#203148} .title{font-size:21px;font-weight:bold} .method{font-size:16px} .label{font-size:16px;fill:#506179} .dep,.impl{fill:none;stroke:#506179;stroke-width:2;stroke-dasharray:8 5}</style>
+<defs><marker id="triangle" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto"><path d="M1 1 L12 7 L1 13 Z" fill="white" stroke="#506179"/></marker><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1 1 L10 6 L1 11" fill="none" stroke="#506179" stroke-width="1.5"/></marker></defs>
+<path d="M 150 470 V 335" class="impl" marker-end="url(#triangle)"/>
+<path d="M 390 730 H 440 V 375 H 310 V 335" class="impl" marker-end="url(#triangle)"/>
+<path d="M 690 470 V 335" class="impl" marker-end="url(#triangle)"/>
+<path d="M 930 730 H 980 V 375 H 850 V 335" class="impl" marker-end="url(#triangle)"/>
+<path d="M 1200 470 V 335" class="impl" marker-end="url(#triangle)"/>
+<path d="M 1440 730 H 1490 V 375 H 1360 V 335" class="impl" marker-end="url(#triangle)"/>
+<path d="M 410 515 H 590" class="dep" marker-end="url(#arrow)"/><text x="475" y="505" class="label">cria</text>
+<path d="M 410 575 H 465 V 635 H 1080 V 535 H 1100" class="dep" marker-end="url(#arrow)"/><text x="790" y="625" class="label">cria</text>
+<path d="M 410 775 H 590" class="dep" marker-end="url(#arrow)"/><text x="475" y="765" class="label">cria</text>
+<path d="M 410 835 H 465 V 895 H 1080 V 795 H 1100" class="dep" marker-end="url(#arrow)"/><text x="790" y="885" class="label">cria</text>
+<path d="M 590 85 H 230 V 210" class="dep" marker-end="url(#arrow)"/><text x="280" y="72" class="label">recebe a fábrica</text>
+<path d="M 710 145 V 210" class="dep" marker-end="url(#arrow)"/><text x="720" y="183" class="label">usa</text>
+<path d="M 950 85 H 1280 V 210" class="dep" marker-end="url(#arrow)"/><text x="1040" y="72" class="label">mantém / usa</text>
+<g transform="translate(50 210)"><rect width="360" height="125" rx="7" fill="#fff2d5" stroke="#71849b"/><text x="16" y="28" class="title">FabricaInterface</text><path d="M0 42 H360" stroke="#71849b"/><text x="16" y="65" class="method">«interface»</text><text x="16" y="88" class="method">+ criarBotao(): Botao</text><text x="16" y="111" class="method">+ criarCaixaSelecao(): CaixaSelecao</text></g>
+<g transform="translate(590 210)"><rect width="360" height="125" rx="7" fill="#e0efff" stroke="#71849b"/><text x="16" y="28" class="title">Botao</text><path d="M0 42 H360" stroke="#71849b"/><text x="16" y="65" class="method">«interface»</text><text x="16" y="88" class="method">+ renderizar(): String</text></g>
+<g transform="translate(1100 210)"><rect width="360" height="125" rx="7" fill="#e0efff" stroke="#71849b"/><text x="16" y="28" class="title">CaixaSelecao</text><path d="M0 42 H360" stroke="#71849b"/><text x="16" y="65" class="method">«interface»</text><text x="16" y="88" class="method">+ renderizar(): String</text></g>
+<g transform="translate(50 470)"><rect width="360" height="125" rx="7" fill="#fff2d5" stroke="#71849b"/><text x="16" y="28" class="title">FabricaWindows</text><path d="M0 42 H360" stroke="#71849b"/><text x="16" y="65" class="method">+ criarBotao(): Botao</text><text x="16" y="88" class="method">+ criarCaixaSelecao(): CaixaSelecao</text></g>
+<g transform="translate(590 470)"><rect width="360" height="125" rx="7" fill="#e5f7ed" stroke="#71849b"/><text x="16" y="28" class="title">BotaoWindows</text><path d="M0 42 H360" stroke="#71849b"/><text x="16" y="65" class="method">+ renderizar(): String</text></g>
+<g transform="translate(1100 470)"><rect width="360" height="125" rx="7" fill="#e5f7ed" stroke="#71849b"/><text x="16" y="28" class="title">CaixaSelecaoWindows</text><path d="M0 42 H360" stroke="#71849b"/><text x="16" y="65" class="method">+ renderizar(): String</text></g>
+<g transform="translate(50 730)"><rect width="360" height="125" rx="7" fill="#fff2d5" stroke="#71849b"/><text x="16" y="28" class="title">FabricaMacOS</text><path d="M0 42 H360" stroke="#71849b"/><text x="16" y="65" class="method">+ criarBotao(): Botao</text><text x="16" y="88" class="method">+ criarCaixaSelecao(): CaixaSelecao</text></g>
+<g transform="translate(590 730)"><rect width="360" height="125" rx="7" fill="#f1eaff" stroke="#71849b"/><text x="16" y="28" class="title">BotaoMacOS</text><path d="M0 42 H360" stroke="#71849b"/><text x="16" y="65" class="method">+ renderizar(): String</text></g>
+<g transform="translate(1100 730)"><rect width="360" height="125" rx="7" fill="#f1eaff" stroke="#71849b"/><text x="16" y="28" class="title">CaixaSelecaoMacOS</text><path d="M0 42 H360" stroke="#71849b"/><text x="16" y="65" class="method">+ renderizar(): String</text></g>
+<g transform="translate(590 35)"><rect width="360" height="110" rx="7" fill="#eef2f7" stroke="#71849b"/><text x="16" y="28" class="title">Tela</text><path d="M0 42 H360" stroke="#71849b"/><text x="16" y="65" class="method">+ Tela(fabrica: FabricaInterface)</text><text x="16" y="88" class="method">+ renderizar(): String</text></g>
+<text x="50" y="960" class="title">Abstract Factory — famílias de componentes</text>
+<text x="50" y="990" class="label">Triângulo vazio + linha tracejada: implementa interface. Seta aberta + linha tracejada: dependência (usa / cria).</text>
+<text x="50" y="1018" class="label">Escopo: classes do padrão e cliente Tela. App demonstra as duas famílias; FabricaInterfaceTest verifica o comportamento.</text>
+</svg>
